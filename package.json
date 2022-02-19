@@ -1,0 +1,24 @@
+{
+  "name": "roflutils",
+  "version": "0.0.1",
+  "description": "A beutiful module for nodeJs.",
+  "main": "roflutils.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alt4team/roflutils.git"
+  },
+  "keywords": [
+    "rofl",
+    "module",
+    "nodejs"
+  ],
+  "author": "alt4team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alt4team/roflutils/issues"
+  },
+  "homepage": "https://github.com/alt4team/roflutils#readme"
+}
