@@ -7,4 +7,4 @@ A module of russian memes and rofl's.
 ```js
 const rofl = require('./roflutils/roflutils')
 ```
-4. Read the [documentation]() of all scripts.
+4. Read the [documentation](https://github.com/alt4team/roflutils/wiki) of all scripts.
