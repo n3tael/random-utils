@@ -1,8 +1,8 @@
 {
-  "name": "roflutils",
+  "name": "random-utils",
   "version": "0.0.2",
   "description": "A beutiful module for nodeJs.",
-  "main": "roflutils.js",
+  "main": "random-utils.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
