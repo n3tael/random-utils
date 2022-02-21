@@ -5,6 +5,6 @@ A module of russian memes and rofl's.
 2. Unzip files to folder of your project.
 3. In main file add this code
 ```js
-const rofl = require('./random-utils')
+const ranutils = require('./random-utils')
 ```
 4. Read the [documentation](https://github.com/alt4team/random-utils/wiki) of all scripts.
