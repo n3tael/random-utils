@@ -1,6 +1,6 @@
 {
   "name": "roflutils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A beutiful module for nodeJs.",
   "main": "roflutils.js",
   "scripts": {

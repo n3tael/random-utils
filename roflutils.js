@@ -13,12 +13,22 @@ async function deadinside() {
         await sleep(100);
     }
 }
-function yesorno() {
+function yesorno($arg) {
+    if ($arg == '1') {
+        console.log('Да')
+    } else if ($arg == '0') {
+        console.log('Нет')
+    } else {
     var list = ['Да', 'Нет'];
     console.log(list[Math.floor(Math.random()*list.length)])
+    }
 }
-async function deathgun() {
-    var list = ['дым', 'шелли с ультой', 'стена', 'deathgun', 'говно'];
+async function deathgun($arg) {
+    if (!$arg) {
+        var list = ['дым', 'шелли с ультой', 'стена', 'deathgun', 'говно'];
+    } else {
+        var list = ['дым', 'шелли с ультой', 'стена', 'deathgun', 'говно', $arg];
+    }
     console.log("советы от дезгана часть "+Math.floor(Math.random()*16384)+" 😈😈😈");
     await sleep('1000');
     console.log(list[Math.floor(Math.random()*list.length)]+" для нас корм.");
